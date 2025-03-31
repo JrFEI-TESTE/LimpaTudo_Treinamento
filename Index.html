@@ -1,0 +1,232 @@
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Limpa Tudo - Serviços Profissionais de Limpeza</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="logo-branca2.png">
+<link rel="stylesheet" href="styles.css">
+  
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <ul class="nav-links left">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">História</a></li>
+      </ul>
+      <div class="logo"><img src="logo-branca.png" alt="Logo"></div>
+      <ul class="nav-links right">
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="menu-icon" id="menuIcon">
+      <img src="icone menu.png" alt="Menu"> <!-- Substitua por sua imagem -->
+    </div>
+    <div class="side-menu" id="sideMenu">
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">História</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#localização">Localização</a></li>
+      </ul>
+    </div>
+    
+  </header>
+
+  <div id="home" class="home">
+    <div class="home-content">
+      <h1>Profissionalismo e Eficiência <br>em cada limpeza.</h1>
+      <p>Aberto de segunda a sexta, das 10:00 às 19:00</p>
+    </div>
+    <a href="#servicos" id="btn">Nossos Serviços</a>
+    
+    <div id="container">
+      <div id="texto-revelado">O <strong>melhor</strong> serviço de limpeza de São Paulo!</div>
+      <div id="mancha">
+        <img src="mancha azul final.png" alt="Mancha de sujeira">
+      </div>
+      <div id="vassoura">
+        <img src="vassoura longa.png" alt="Vassoura">
+      </div>
+    </div>
+  </div>
+  <div id="sobre" class="sobre">
+    <h2>SOBRE NÓS</h2>
+    <p class="resumido">A <strong>Limpa Tudo</strong> é uma empresa de 
+      limpeza especializada em atender
+      <strong>escritórios</strong> e <strong>restaurantes</strong>, dedicada a 
+      proporcionar ambientes impecáveis 
+      e organizados para nossos clientes.
+      Focamos na <strong>eficiência</strong>,<strong>qualidade</strong>
+      e <strong>atenção</strong> aos detalhes, para garantir
+       um <strong>espaço limpo</strong> e <strong>acolhedor</strong>
+      aos nossos clientes.</p>
+      <button class="button" onclick="toggleContent()">Conheça a nossa história</button>
+      <div class="hidden-content" id="extraContent">
+        <h3>História</h3>
+        <p class="escondido"> Rodolfo e Ricardo, amigos desde a infância, 
+          foram unidos também pela forte amizade entre suas mães, 
+          que se conheceram na escola e cresceram juntas.
+           Ambas trabalhavam como empregadas domésticas e,
+           com o tempo, decidiram unir forças e profissionalizar esse trabalho,
+           fundando a Limpa Tudo. Originalmente,
+           a empresa focava em serviços de limpeza residencial, 
+          com uma equipe de diaristas dedicadas.</p>
+          <p class="escondido2"> Com o passar dos anos, perceberam a oportunidade
+          de expandir e atender um novo mercado. A Limpa Tudo, então, 
+          direcionou seus serviços para atender escritórios e restaurantes, 
+          ampliando suas áreas de atuação. Inspirados pela dedicação
+          de suas mães, Ricardo e Rodolfo assumiram a administração
+          da empresa e, hoje, lideram a Limpa Tudo, honrando a trajetória
+          que elas começaram e impulsionando a empresa para um 
+          futuro de ainda mais crescimento.</p>
+          <img class="foto-dono" src="Foto.jpeg">
+      </div>
+  </div>
+
+  <section id="servicos" class="services">
+    <h4>SERVIÇOS</h4>
+    <div class="service-container">
+      <div class="service-item service-right">
+        <div>
+            <h5>Manutenção de Instalações</h5>
+            <p>
+                <strong>Oferecemos um Programa de Saneamento completo, projetado para garantir a higiene e segurança das instalações. 
+                Esse programa inclui ações preventivas e corretivas, proporcionando ambientes mais limpos e saudáveis para todos os ocupantes.</strong>
+            </p>
+        </div>
+        <img class="foto1" src="imagem limpeza 1.jpg" alt="Manutenção de Instalações">
+    </div>
+    <div class="imagem-escondida">
+      <img class="foto-escondida" src="escondida1.jpeg" alt="Limpeza Comercial">
+    </div>
+    
+    <div class="service-item service-left">
+        <img class="foto2" src="imagem limpeza 2.jpg" alt="Limpeza Comercial">
+    <div>
+            <h5>Limpeza Comercial</h5>
+            <p>
+              <strong>Nossa equipe oferece serviços especializados de limpeza profunda para estabelecimentos comerciais, 
+                incluindo limpeza de carpetes, azulejos, fachadas e pavimentos, além de manutenção de pisos e pequenos reparos. 
+                Proporcionamos ambientes limpos, agradáveis e em ótimo estado de conservação, adaptando nossos serviços às necessidades de cada cliente.</strong>
+            </p>
+        </div>
+    </div>
+    <div class="imagem-escondida">
+      <img class="foto-escondida" src="escondida3.jpeg" alt="Limpeza Comercial">
+    </div>
+    
+    <div class="service-item service-right">
+        <div>
+            <h5>Limpeza de Restaurantes</h5>
+            <p>
+              <strong>Com foco em cozinhas de restaurantes, oferecemos serviços de limpeza profunda para garantir a segurança e higiene dos ambientes de preparo de alimentos. 
+                Nossa equipe realiza uma limpeza completa dos equipamentos, exaustores e superfícies, assegurando que o local esteja em conformidade com os padrões de higiene e preparado para atender os clientes.</strong>
+            </p>
+        </div>
+        <img class="foto3" src="imagem limpeza 3.jpg" alt="Limpeza de Restaurantes">
+    </div>
+    <div class="imagem-escondida">
+      <img class="foto-escondida" src="escondida2.jpeg" alt="Limpeza Comercial">
+    </div>
+  </section>
+    <div class="depoimentos" id="depoimentos">
+      <h6>DEPOIMENTOS</h6>
+      <div  class="depoimentos-container">
+        
+        <div class="custom-carrossel-container">
+          <button class="custom-prev" onclick="mudarSlideCustom(-1)">&#10094;</button>
+          <div class="custom-carrossel">
+            <div class="custom-slide-item">
+              <img src="depoimento1.png" alt="Depoimento 1" />
+            </div>
+            <div class="custom-slide-item">
+              <img src="depoimento2.png" alt="Depoimento 2" />
+            </div>
+            <div class="custom-slide-item">
+              <img src="depoimento3.png" alt="Depoimento 3" />
+            </div>
+            <div class="custom-slide-item">
+              <img src="depoimento4.png" alt="Depoimento 4" />
+            </div>
+            <div class="custom-slide-item">
+              <img src="depoimento5.png" alt="Depoimento 5" />
+            </div>
+          </div>
+          <button class="custom-next" onclick="mudarSlideCustom(1)">&#10095;</button>
+        </div>
+      </div>
+  </div>
+  <div class="fundo" id="contato">
+    <div class="spray-can" id="sprayCan">
+      <img src="spray autoral.png" alt="Borrifador de Limpeza">
+    </div>
+    <img src="aguag.png" alt="Imagem Animada" class="animated-image" id="animatedImage">
+    
+      <button class="botao" id="contactButton">Entrar em Contato</button>
+      <div class="form-wrapper" id="formWrapper">
+        <p class="phone-info">Telefone: 914795046<br>E-mail: limpatudocorp@gmail.com</p>
+        <div class="contact-form">
+          <input type="text" placeholder="Nome" required>
+          <input type="email" placeholder="E-mail" required>
+          <input type="tel" placeholder="Telefone" required>
+          <textarea placeholder="Mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+  
+      </div>
+    </div>
+  </div>
+  <div id="localização" class="localização">
+    <h6>LOCALIZAÇÃO</h6>
+    <div style="display: flex; align-items: center; gap: 10px; margin-left: 5%;">
+        <img src="icone mapa.png" alt="Ícone de mapa" style="width: 20px; height: auto; vertical-align: middle;">
+        <p style="margin: 0;">Av. Brig. Faria Lima, 1572<br>Jardim Paulistano, São Paulo - SP, 01451-001</p>
+    </div>
+    <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11356.2192237578!2d-46.69158453043587!3d-23.57339945957393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce575af84ad6d5%3A0x62af5a542fe4c7!2sAv.%20Brig.%20Faria%20Lima%2C%201572%20-%20Itaim%20Bibi%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001451-001!5e0!3m2!1spt-BR!2sbr!4v1731082203573!5m2!1spt-BR!2sbr" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+ 
+
+  <footer class="footer">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; padding: 0px;">
+        <img class="logo-rodape" src="logo-branca.png" alt="Logo Limpa Tudo">
+        <div class="lista" style="font-size: 20px;">
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">História</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#localização">Localização</a></li>
+            </ul>
+        </div>
+
+        <div class="linha"></div>
+        
+        <div class="texto-footer" >
+            <div>
+                <p class="e-mail">✉️ limpatudocorp@gmail.com</p>
+                <div class="espaço">
+                    <img src="icone mapa.png" alt="Ícone de mapa" style="width: 20px; height: auto;">
+                    <p class="endereço">Av. Brig. Faria Lima, 1572<br>Jardim Paulistano, São Paulo - SP, 01451-001</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="desenvolvido">
+            <p class="texto-desenvolvido" >Desenvolvido por:</p>
+            <img class="logo-junior" src="logo JrFEI.png" alt="Logo JrFEI">
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
